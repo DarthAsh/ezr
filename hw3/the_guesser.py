@@ -37,17 +37,9 @@ def branch(train):
               guess_variable = "smart"
           for _ in range(repeats):
             if guesser == True:
-                #tmp is just guesses here no AL
-                #dumb
                 tmp = [guess_fn(d,N) for _ in range(20)][0]
-                #print("fucked")
-                #print(tmp[0][0])
-                #tmp = [d.chebyshev( lst[0] ) for lst in tmp]
             else:
-                #smart
                 tmp=d.shuffle().activeLearning(score=how)
-                #print(tmp[0])
-                #tmp = [ d.chebyshev( lst[0] )for lst in tmp]
           runs += len(tmp)
           result += [rnd(d.chebyshev(tmp[0]))]
 
