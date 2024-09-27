@@ -3,7 +3,7 @@ python3.13 the_guesser.py path to your dataset
 
 I have generated 2 bash files, guess_small.sh and guess_large.sh, which respectively run the extension for low and high dimensionality datasets.
 
-To run the experiment simply run these bash files. You will have to create the tmp and tmp2 directories.
+To run the experiment simply run these bash files.
 
 guess_small.sh runs it for 7 low dimensionality datasets
 
