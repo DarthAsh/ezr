@@ -7,7 +7,7 @@ To run the experiment simply run these bash files.
 
 guess_small.sh runs it for 7 low dimensionality datasets
 
-guess_large.sh runs it for 4 medium and 3 large dimensionality datasets.
+guess_large.sh runs it for 7 large dimensionality datasets.
 
 I have copied the results from rq.sh into an editor as they were not clearly readable in the command line.
 
