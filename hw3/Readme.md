@@ -50,11 +50,15 @@ dumb/20 - Rank 0 - 14 times
 
 
 Analysis of results
+
+
 For small dimesionality datasets both the active learner (smart) and the randomly picked values(dumb) scored equally well.
 
 For large dimensionality datasets, atleast for the  datasets we ran the code on, we found that the active learner outperformed the randomly picked values and scored better
 
 Conclusion
+
+
 From the results we confirm the JJR1 hypothesis that for small dimensionality datasets randomly picked values work as well as active learners.
 We doubt the JJR2 hypothesis as our results show that for large dimensionality datasets the active learner scores better than the randomly picked values.
 
