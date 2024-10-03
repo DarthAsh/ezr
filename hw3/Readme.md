@@ -60,7 +60,8 @@ Conclusion
 
 
 From the results we confirm the JJR1 hypothesis that for small dimensionality datasets randomly picked values work as well as active learners.
-We doubt the JJR2 hypothesis as our results show that for large dimensionality datasets the active learner scores better than the randomly picked values.
+
+We doubt the JJR2 hypothesis as our results show that for large dimensionality datasets the active learner scores better than the randomly picked values. We further submit that active learners perform better than randomly picked values for large dimensionality datasets.
 
 
 
